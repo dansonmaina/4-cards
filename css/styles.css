@@ -1,0 +1,66 @@
+body {
+    font-family:poppins;
+
+
+}
+p{
+    color: hsl(229, 6%, 66%);
+
+}
+
+    	.intro{
+        	    text-align:center;
+        	}
+    	#h1intro{
+    	    color: hsl(229, 6%, 66%);
+    	}
+
+    	.card1{
+    	    background-color:hsl(0, 78%, 62%);
+    	    height:0.01rem;
+
+    	}
+    	.card2{
+    	    background-color:hsl(180, 62%, 55%);
+
+    	}
+    	.card3{
+    	    background-color:hsl(212, 86%, 64%);
+
+    	}
+    	.card4{
+    	    background-color:hsl(34, 97%, 64%);
+
+    	}
+
+      #flex-container{
+        display: flex;
+        flex-direction: row;
+      }
+
+
+      @media screen and (min-width: 1000px) {
+        .karma{
+            flex:auto;
+            flex-wrap: wrap;
+            margin-left: 452px;
+
+      }
+      .supervisor{
+         margin-top: 90px;
+      }
+      .calculator{
+         margin-top: 90px;
+      }
+    }
+    @media screen and (min-width: 375px){
+      body{
+        margin: 1rem;
+      }
+
+
+    }
+
+      .icon{
+        margin-left: 300px;
+      }
